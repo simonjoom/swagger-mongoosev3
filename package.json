@@ -1,0 +1,41 @@
+{
+  "name": "swagger-mongoosev3",
+  "version": "1.0",
+  "description": "Generate mongoose schemas and models from swagger documents Forked from simonguest/swagger-mongoose",
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lodash": "^4.6.1"
+  },
+  "devDependencies": {
+    "async": "^2.0.0",
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "mockgoose": "^7.0.0",
+    "mongoose": "^4.8.6"
+  },
+  "peerDependencies": {
+    "mongoose": "^4.8.6"
+  },
+  "scripts": {
+    "test": "mocha --timeout 60000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simonjoom/swagger-mongoosev3"
+  },
+  "keywords": [
+    "swagger",
+    "mongoose",
+    "mongo",
+    "schema"
+  ],
+  "author": "Simon Gendrin <simon@skiscool.com> (http://github.com/simonjoom)",
+  "license": "Apache 2",
+  "bugs": {
+    "url": "https://github.com/simonjoom/swagger-mongoosev3/issues"
+  },
+  "homepage": "https://github.com/simonjoom/swagger-mongoosev3"
+}
